@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH LEARN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <h1>INNOTECH LEARN</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#home" onclick="navigateTo('home')">Home</a></li>
+            <li>
+                <a href="#learnHere" class="dropdown" onclick="toggleSubMenu()">Learn Here <span class="arrow">▼</span></a>
+                <ul class="submenu hidden" id="learnHereMenu">
+                    <li><a href="#digitalMarketing" onclick="navigateTo('digitalMarketing')">Digital Marketing</a></li>
+                    <li><a href="#webApplication" onclick="navigateTo('webApplication')">Web Application</a></li>
+                    <li><a href="#mobileApplication" onclick="navigateTo('mobileApplication')">Mobile Application</a></li>
+                    <li><a href="#python" onclick="navigateTo('python')">Python</a></li>
+                    <li><a href="#html" onclick="navigateTo('html')">HTML</a></li>
+                    <li><a href="#css" onclick="navigateTo('css')">CSS</a></li>
+                    <li><a href="#javascript" onclick="navigateTo('javascript')">JavaScript</a></li>
+                </ul>
+            </li>
+            <li><a href="#aboutUs" onclick="navigateTo('aboutUs')">About Us</a></li>
+            <li><a href="#settings" onclick="navigateTo('settings')">Settings</a></li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Your Gateway to Tech Mastery</h2>
+            <h3>Learn, Grow, and Innovate</h3>
+
+            <!-- Quantum Computing Section -->
+            <div class="topic">
+                <u>Quantum Computing: A Leap into the Future</u>
+                <p>
+                    Quantum computing is a revolutionary technology that leverages the principles of quantum mechanics to perform computations at an unprecedented speed and scale. Unlike classical computers that rely on bits to represent information as 0s and 1s, quantum computers use quantum bits or qubits, which can exist in multiple states simultaneously, enabling them to process information exponentially faster.
+                </p>
+                <img src="quantum-computing.jpg" alt="Quantum Computing Image" class="topic-image">
+            </div>
+
+            <!-- Placeholder Topics -->
+            <div class="topic">
+                <h4>HOW TO USE AI</h4>
+                <p>Ai tools are fast and accurate with the help of thos ai tools we can do any work or complete any work by 10x faster so learning ai is the important skill we hve to learn in 2025</p>
+                <img src="/51eb1c4b-5f81-441b-8702-d03b070455a5.jpg" alt="Topic 1 Image" class="topic-image">
+            </div>
+            <div class="topic">
+                <h4>Digital Marketing</h4>
+                <p>Content for Topic 2 goes here...</p>
+                <img src="/generate-an-illustration-about-digital-market_rNCiDpQ.jpg" alt="Topic 2 Image" class="topic-image">
+            </div>
+            <div class="topic">
+                <h4>Virtual reality (VR) and augmented reality (AR)</h4>
+                <p>Virtual reality (VR) and augmented reality (AR) have exciting potential in the future of gaming, marketing, e-commerce, education, and many other fields. Both technologies are known for their enriched experience that brings together a virtual world and the real one with enhanced, 3-D visuals.</p>
+                <img src="/image-prompt-a-person-using-ar-glasses-to-ove_uEUFls5.jpg" alt="Topic 3 Image" class="topic-image">
+            </div>
+            <div class="topic">
+                <h4>BLOCKCHAIN</h4>
+                <p>Blockchain is a digital ledger that records transactions across a network of computers, making it difficult to alter or manipulate the system. It's a decentralized, public database that uses cryptography to encrypt information and ensure user privacy.</p>
+                <img src="/a-blockchain-network-represented-as-a-chain-o_hmzru1J.jpg" alt="Topic 4 Image" class="topic-image">
+            </div>
+            <div class="topic">
+                <h4>BIOTECHNOLOGY</h4>
+                <p>This field is transforming healthcare and agriculture, and includes advancements like gene editing and personalized medicin</p>
+                <img src="/4a347c15-7e1a-49e8-b47c-9611cbc0bab4.jpg" alt="Topic 5 Image" class="topic-image">
+            </div>
+            <div class="topic">
+                <h4>ARTIFICIAL INTELLIGENCE</h4>
+                <p>Content for Topic 6 goes here...</p>
+                <img src="/64788ed3-0fab-43a1-942d-509cb4557ec0.jpg" alt="Topic 6 Image" class="topic-image">
+            </div>
+            <div class="topic">
+                <h4>EDGE COMPUTING</h4>
+                <p>Edge computing is a networking technology that processes and stores data closer to the user, rather than in a remote data center. This technology reduces latency and delays, and makes data processing more efficient. </p>
+                <img src="/OSD_ARTICLES_EDGE_COMPUTING_THUMBNAIL.jpg" alt="Topic 7 Image" class="topic-image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TECH LEARN. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
